@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="715" height="696" viewBox="0 0 715 696">
+  <g id="simge" transform="translate(-910 -264)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="179" height="174" rx="38" transform="translate(1267 264)" fill="#6e00ff"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="179" height="174" rx="38" transform="translate(1267 612)" fill="#6e00ff"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="179" height="174" rx="38" transform="translate(1446 438)" fill="#6e00ff" opacity="0.52"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="179" height="174" rx="38" transform="translate(1088 438)" fill="red"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="179" height="174" rx="38" transform="translate(1089 786)" fill="red"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="179" height="174" rx="38" transform="translate(910 619)" fill="red" opacity="0.64"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="89" cy="87" rx="89" ry="87" transform="translate(1268 438)" fill="#ff64cb"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="89" cy="87" rx="89" ry="87" transform="translate(1090 612)" fill="#00ffc4"/>
+  </g>
+</svg>
