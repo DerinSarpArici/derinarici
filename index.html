@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSA</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+<div class="sayada">
     <div class="nav-container">
         <header>
             <a href="index.html" class="logo">Derin Sarp Arıcı</a>
 
             <nav>
                 <ul>
-                    <li><a href="#">İşlerim</a></li>
-                    <li><a href="#">Yeteneklerim</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#yaptıklarım">Yaptıklarım</a></li>
+                    <li><a href="#yetenekler">Yeteneklerim</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
                 </ul>
             </nav>
         </header>
@@ -61,13 +62,13 @@
           </svg>          
     </div>
 
-    <section class="featured">
+    <section id="yaptıklarım" class="featured">
         <div class="left">
             <div class="inner transition2">
                 <p class="subtitle">Öne Çıkan Proje</p>
                 <a href="#" class="featured-title">Kronos Discord Bot</a>
 
-                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate, eaque officia similique aliquam dignissimos!</p>
+                <p class="featured-desc">Kronos son derece özenle yapılmış bir müzik botudur. Üçüncü sürümüne gelmiş ve bu sürümde çoğu botlarda paralı olan özellikler bedavadır. Kronos'un web paneli bulunmaktadır!</p>
             </div>
         </div>
         <img class="right transition2" src="images/kronossite.PNG" alt="Öne Çıkan Proje">
@@ -99,6 +100,61 @@
                 </li>
             </ul>
         </div>
+    </section>
+    <br><br>
+    <section class="yeteneklerim" id="yetenekler">
+        <div data-aos="slide-up" data-aos-delay="400000" class="skill">
+            <h1>Yeteneklerim!</h1>
+            <div data-aos="slide-up" data-aos-delay="400000">
+                <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+                </li>
+                <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+                </li>
+                <li><h3>SCSS</h3>
+                <span class="bar"><span class="scss"></span></span>
+                </li>
+                <li><h3>Java Script</h3>
+                <span class="bar"><span class="javascript"></span></span>
+                </li>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="iletisim" id="iletisim">
+		<div class="header">
+			<h1>Benimle iletişime Geçin</h1>
+		</div>
+		<!---header--->
+		<!---main--->
+			<div class="main-content">
+				<div class="contact-w3">
+
+					<form action="send_form_email.php" method="post">
+						<label>İsminiz</label>
+						<input type="text" name="name" placeholder="İsminiz" required>
+						<div class="row">
+							<div class="contact-left-w3">
+								<label>Email</label>
+									<input type="text" name="email" placeholder="Email adresiniz" required>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<label>Konu</label>
+							<input type="text" name="subject" placeholder="Konu" required>
+						<div class="row1">
+							<label>Mesaj</label>
+							<textarea placeholder="Mesaj" name="message"></textarea>
+						</div>
+						<input type="submit" value="Gönder">
+					</form>
+				</div>
+			</div>
+		<div class="footer-w3-agile">
+			<p>&copy; 2021 Derin Sarp Arıcı</p>
+		</div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -144,5 +200,9 @@
             stagger: .6
         })
     </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
