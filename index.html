@@ -127,35 +127,23 @@
 		<div class="header">
 			<h1>Benimle iletişime Geçin</h1>
 		</div>
-		<!---header--->
-		<!---main--->
-			<div class="main-content">
-				<div class="contact-w3">
 
-					<form action="./send_form_email.php" method="post">
-						<label>İsminiz</label>
-						<input type="text" name="name" placeholder="İsminiz" required>
-						<div class="row">
-							<div class="contact-left-w3">
-								<label>Email</label>
-									<input type="text" name="email" placeholder="Email adresiniz" required>
-							</div>
-							<div class="clear"></div>
-						</div>
-						<label>Konu</label>
-							<input type="text" name="subject" placeholder="Konu" required>
-						<div class="row1">
-							<label>Mesaj</label>
-							<textarea placeholder="Mesaj" name="message"></textarea>
-						</div>
-						<input type="submit" value="Gönder">
-					</form>
-				</div>
-			</div>
-		<div class="footer-w3-agile">
-			<p>&copy; 2021 Derin Sarp Arıcı</p>
-		</div>
-    </section>
+        <div class="formbox">  
+            <form id="contactform" action="https://formspree.io/f/xeqvzayg" method="POST">
+                <input type="text" placeholder="Adınız">
+                <input type="email" placeholder="Mail Adresiniz">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="Mesajınız"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="Send">
+            </form>
+            </div>
+
+<div class="footer-w3-agile">
+<p>&copy; 2021 Derin Sarp Arıcı</p>
+</div>
+</section>      
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
