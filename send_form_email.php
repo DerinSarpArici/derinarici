@@ -77,7 +77,7 @@ $headers = 'Kimden: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Benimle iletişime geçtiğiniz için teşekkür ederim en kısa zamanda size ulaşacağım!
+http://www.derinsarparici.tk/#iletisim
  
 <?php
  
