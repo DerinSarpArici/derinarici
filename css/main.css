@@ -578,9 +578,9 @@ section {
   transition: border-color 0.3s ease-in-out;
   border: 2px solid;
   position: center;
-  -o-border-image: linear-gradient(to bottom right, #F92A82, #E2C044);
-     border-image: -webkit-gradient(linear, left top, right bottom, from(#F92A82), to(#E2C044));
-     border-image: linear-gradient(to bottom right, #F92A82, #E2C044);
+  -o-border-image: linear-gradient(to bottom right, #6E00FF, #00FFC4);
+     border-image: -webkit-gradient(linear, left top, right bottom, from(#6E00FF), to(#00FFC4));
+     border-image: linear-gradient(to bottom right, #6E00FF, #00FFC4);
   border-image-slice: 1;
 }
 
@@ -602,8 +602,8 @@ section {
   -moz-transition: background-color 0.3s ease-in-out;
   position: center;
   transition: background-color 0.3s ease-in-out;
-  background: -webkit-gradient(linear, left top, right bottom, from(#F92A82), to(#E2C044));
-  background: linear-gradient(to bottom right, #F92A82, #E2C044);
+  background: -webkit-gradient(linear, left top, right bottom, from(#6E00FF), to(#00FFC4));
+  background: linear-gradient(to bottom right, #6E00FF, #00FFC4);
 }
 
 #contactform textarea {
